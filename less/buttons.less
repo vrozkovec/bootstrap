@@ -168,29 +168,7 @@ input[type="button"] {
 }
 
 //BERRIES DROP
-
-// Provide *some* extra contrast for those who can get it
-.btn-drop.active {
-  color: rgba(255,255,255,.75);
-}
-
-.btn-drop {
-/*   .buttonBackground(@dropOrange, darken(@dropOrange, 10%));     */
-  .buttonBackground(@dropOrange, @dropOrange);    
-  .box-shadow(none);
-  .border-radius(7px);
-  padding: 6px 20px;
-}
-
-.btn-about {
-/*   .buttonBackground(@black, @black);     */
-  .box-shadow(none);
-  .border-radius(7px);
-  padding: 6px 20px;
-  color: @tyrkys !important;
-  background-color: @black;
-}
-
+@import "berries-buttons.less";
 
 // Cross-browser Jank
 // --------------------------------------------------
